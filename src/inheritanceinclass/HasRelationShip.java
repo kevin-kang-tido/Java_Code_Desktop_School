@@ -5,11 +5,7 @@ class CarTwo {
     String model;
     String color;
 
-
 }
-
-
-
 class Engine{
     String model;
 }
@@ -32,7 +28,7 @@ class BMW extends CarTwo {
 
 public class HasRelationShip {
     public static void main(String[] args) {
-        BMW bmw = new BMW(1,"ddiih","red");
+        BMW bmw = new BMW(1,"DD))1","red");
         bmw.getDetail();
 
     }
