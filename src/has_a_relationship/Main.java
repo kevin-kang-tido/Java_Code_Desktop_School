@@ -19,7 +19,6 @@ class BM extends ClassInAnotherClass{
     // has a relationship (BM has a relationship with EngineOfClass)
     EngineOfClass engineOfClass = new EngineOfClass();
     Gas gas = new Gas();
-
     BM(Integer id, String model,String color,Integer push,Integer speed){
         this.id = id;
         this.model = model;
